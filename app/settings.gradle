@@ -1,0 +1,3 @@
+rootProject.name = 'app'
+
+includeBuild((new Random()).nextDouble() > 0.5 ? '../lib' :	'../lib-relocated')
